@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Oswald&display=swap');
+/*
+    font-family: 'Oswald',
+    font-family: 'Crimson Text',;
+*/
+body{
+    font-family: 'Crimson Text';
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald';
+    margin: 0;
+}
+
+/*Header Section*/
+.header-section {
+    background: url(img/header-bg.png);
+    height: 700px;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+.jack{
+    color: salmon;
+}
+p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 5%;
+   
+}
+.half-width img{
+    width: 100%;
+}
+.button-design{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #ff6347, #fa8072);
+    padding: 15px 40px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.button-design:hover{
+    background-image: linear-gradient(90deg, #fa8072, #ffa500);
+}
+section{
+    margin-bottom: 100px;
+}
+/*Biograph Section*/
+.biograph {
+    background: url(img/biography-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+}
+.my-bio{
+    margin-top: 200px;
+}
+
+/*My Work Section*/
+.work{
+    background: url(img/latest-work-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+.work h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0;
+}
+.work-design{
+    width: 28%;
+    float: left;
+    margin: 0 2.5%;
+}
+.work-design img{
+    width: 100%;
+}
+
+/*Client Openion Section*/
+.c-openion{
+    text-align: center;
+    background: url(img/footer-bg.png);
+    background-size: cover;
+    height: 350px;
+}
+.c-openion p{
+    margin: 30px 370px;
+}
+.c-openion h2{
+    font-size: 40px;
+}
+.c-diss{
+    margin-top: 30px;
+}
+.c-diss p{
+    font-size: 14px;
+}
+.contact{
+    background: palevioletred;
+    padding: 20px 50px;
+    margin: 0 200px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/*Footer*/
+footer p{
+    font-size: 14px;
+    text-align: center;
+}
